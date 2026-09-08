@@ -11,16 +11,13 @@ async function deploy() {
             host: process.env.FTP_HOST,         
             user: process.env.FTP_USER,         
             password: process.env.FTP_PASSWORD, 
-            secure: true                
+            secure: false                
         });
-
-        console.log("Verbunden! Leere alten Ordner und lade neue Dateien hoch...");
         
-        await client.ensureDir("web");
-        await client.clearWorkingDir();
-        await client.uploadFromDir("dist");
-        
+        console.log("Verbunden! Lade neue Dateien hoch...");
+        await client.uploadFromDir("dist");       
         console.log("✅ Upload erfolgreich abgeschlossen!");
+
     } catch(err) {
         console.error("❌ Fehler beim Upload:", err);
     }
