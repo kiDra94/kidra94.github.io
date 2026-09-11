@@ -1,7 +1,7 @@
 ---
 title: "SmartFi"
-description: "A lightweight, cross-platform desktop application built with C++ and wxWidgets for managing personal finances. Features double-entry bookkeeping, transaction categorization, and comprehensive reporting, all while ensuring total data privacy through local storage."
-tags: ["wxWidgets", "Chart.js", "c++", "JS", "HTML", "CSS"]
+description: "A lightweight, cross-platform desktop app in C++ and wxWidgets for personal finances: double-entry bookkeeping, categories and reports, with every figure stored locally."
+tags: ["C++", "wxWidgets", "Chart.js", "JavaScript", "HTML", "CSS"]
 githubUrl: "https://github.com/kiDra94/Smartfi"
 order: 3
 ---
@@ -23,4 +23,4 @@ order: 3
 * **GUI Framework:** wxWidgets 3.2+
 * **Build System:** CMake (>= 3.19)
 * **Testing Framework:** Catch2
-* **Charts** Chart.js
+* **Charts:** Chart.js

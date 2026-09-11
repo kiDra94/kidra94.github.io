@@ -1,9 +1,9 @@
 ---
 title: "Today I Learned"
-description: "A Vue 3 + Vite application that helps you track what you learned on specific days. Add subjects, and log daily learnings on a calendar view. A lightweight and simple tool to build your own digital learning diary."
-tags: ["Docker", "Vue 3", "Vite", "Day.js"]
+description: "A Vue 3 and Vite app for a personal learning diary: log what you learned each day, sort it by subject and look back on it in a calendar view."
+tags: ["Vue 3", "Vite", "Day.js", "Docker"]
 githubUrl: "https://github.com/kiDra94/today-i-learned"
-order: 5
+order: 4
 ---
 
 **Today I Learned (TIL)** is a lightweight digital diary designed for developers and lifelong learners to track their daily progress. Instead of losing track of small coding tips, tutorials, or new concepts, this application provides a centralized and organized space to document them.

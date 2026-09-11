@@ -1,9 +1,9 @@
 ---
 title: "Corporate Network Simulation"
-description: "Planning, documentation, and simulation of a complete corporate network prototype using Cisco Packet Tracer. Features custom IP schemas (VLSM), VLAN routing, LAN security and IoT Devices."
+description: "Planning, documentation and simulation of a corporate network in Cisco Packet Tracer, with a VLSM IP schema, VLAN routing, LAN security and IoT devices."
 tags: ["Networking", "Cisco Packet Tracer", "Security", "VLAN"]
 githubUrl: "https://github.com/kiDra94/Multi-Site-Enterprise-Network-Design"
-order: 4
+order: 5
 ---
 
 **Corporate Network – YUPP Software Entwicklung GmbH**  

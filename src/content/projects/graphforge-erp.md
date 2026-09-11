@@ -1,6 +1,6 @@
 ---
 title: "GraphForge ERP"
-description: "A graph-based ERP backend built with FastAPI and Neo4j: recursive bills of materials, stock derived from its own movement history, documents from quote to invoice and role-based field masking, tested on three levels up to a real Neo4j."
+description: "A graph-based ERP backend in FastAPI and Neo4j: recursive bills of materials, stock derived from its own movement history and documents from quote to invoice, tested up to a real Neo4j."
 tags: ["Python", "FastAPI", "Neo4j", "Cypher", "Docker", "Testcontainers"]
 githubUrl: "https://github.com/kiDra94/graphforge-erp"
 liveUrl: "https://graphforge-erp.onrender.com/api/docs"
