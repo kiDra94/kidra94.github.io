@@ -3,7 +3,7 @@ title: "SmartFi"
 description: "A lightweight, cross-platform desktop application built with C++ and wxWidgets for managing personal finances. Features double-entry bookkeeping, transaction categorization, and comprehensive reporting, all while ensuring total data privacy through local storage."
 tags: ["wxWidgets", "Chart.js", "c++", "JS", "HTML", "CSS"]
 githubUrl: "https://github.com/kiDra94/Smartfi"
-order: 2
+order: 3
 ---
 
 **SmartFi** is a lightweight, cross-platform desktop application for managing your personal finances. Featuring an intuitive user interface based on wxWidgets, SmartFi helps you keep track of your income and expenses without ever having to upload your data to the cloud.
