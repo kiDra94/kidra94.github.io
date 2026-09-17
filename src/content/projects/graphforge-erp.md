@@ -4,6 +4,7 @@ description: "A graph-based ERP backend in FastAPI and Neo4j: recursive bills of
 tags: ["Python", "FastAPI", "Neo4j", "Cypher", "Docker", "Testcontainers"]
 githubUrl: "https://github.com/kiDra94/graphforge-erp"
 liveUrl: "https://graphforge-erp.onrender.com/api/docs"
+liveNote: "First load may take ~1 min — free-tier instance waking up."
 order: 1
 ---
 
@@ -19,8 +20,8 @@ The requirements come from day-to-day work in a real manufacturing business; thi
 
 ### Live Demo
 The Swagger UI runs on Render with a Neo4j Aura database.
-Sign in with `max.mustermann@acme.example` and the password `demo1234`.
-The first request may take a minute while the free instance wakes up.
+
+> **Demo credentials (read-only, fake data):** `max.mustermann@acme.example` / `demo1234`
 
 ### Tech Stack
 - **Backend:** Python 3.14, FastAPI, Pydantic v2
