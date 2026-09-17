@@ -9,6 +9,7 @@ const projectsCollection = defineCollection({
     tags: z.array(z.string()),
     githubUrl: z.string().url().optional(),
     liveUrl: z.string().url().optional(),
+    liveNote: z.string().optional(),
     order: z.number().default(0),
   }),
 });
