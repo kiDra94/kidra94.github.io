@@ -6,18 +6,20 @@ interface Props {
   detailUrl: string;
   githubUrl?: string;
   liveUrl?: string;
+  liveNote?: string;
 }
 
-const { title, description, tags, detailUrl, githubUrl, liveUrl } = Astro.props;
+const { title, description, tags, detailUrl, githubUrl, liveUrl, liveNote } = Astro.props;
+const focusRing = "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-zinc-900 rounded-sm";
 ---
 <div class="p-6 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900/50 hover:border-indigo-500/50 dark:hover:border-indigo-400/50 transition-all duration-300 flex flex-col justify-between">
   <div>
     <h3 class="text-lg font-semibold text-zinc-900 dark:text-white mb-2">
-      <a href={detailUrl} class="hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors">{title}</a>
+      <a href={detailUrl} class={`hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors ${focusRing}`}>{title}</a>
     </h3>
     <p class="text-sm text-zinc-600 dark:text-zinc-400 mb-4 leading-relaxed">{description}</p>
   </div>
-  
+
   <div>
     <div class="flex flex-wrap gap-1.5 mb-5">
       {tags.map((tag) => (
@@ -26,21 +28,25 @@ const { title, description, tags, detailUrl, githubUrl, liveUrl } = Astro.props;
         </span>
       ))}
     </div>
-    
+
     <div class="flex flex-wrap gap-4 text-xs font-semibold">
-      <a href={detailUrl} class="text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+      <a href={detailUrl} class={`text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1 ${focusRing}`}>
         Details →
       </a>
       {githubUrl && (
-        <a href={githubUrl} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+        <a href={githubUrl} target="_blank" rel="noopener noreferrer" class={`text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1 ${focusRing}`}>
           GitHub →
         </a>
       )}
       {liveUrl && (
-        <a href={liveUrl} target="_blank" rel="noopener noreferrer" class="text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1">
+        <a href={liveUrl} target="_blank" rel="noopener noreferrer" class={`text-indigo-600 dark:text-indigo-400 hover:underline inline-flex items-center gap-1 ${focusRing}`}>
           Live demo →
         </a>
       )}
     </div>
+    {liveUrl && liveNote && (
+      <p class="text-[11px] text-zinc-500 dark:text-zinc-500 mt-2">{liveNote}</p>
+    )}
   </div>
-</div>  
+</div>
+
