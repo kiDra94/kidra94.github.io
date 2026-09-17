@@ -26,6 +26,11 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 
+# Impeccable-Skill (interner Produktkontext, nicht für Besucher)
+PRODUCT.md
+DESIGN.md
+.impeccable/
+
 # Editoren und IDEs
 .vscode/
 .idea/
