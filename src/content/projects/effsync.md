@@ -2,7 +2,7 @@
 title: "EffSync"
 description: "A web-based task management system for schools, built as a two-person diploma thesis: nested tasks with role-based rights, live chat, grading and a calendar, on a NestJS backend organised by domain."
 tags: ["TypeScript", "NestJS", "Vue 3", "PostgreSQL", "Prisma", "Socket.io", "Jest", "GitHub Actions"]
-githubUrl: "https://github.com/kiDra94/diplom-arbeit"
+githubUrl: "https://github.com/kiDra94/EffSync"
 order: 0
 ---
 
